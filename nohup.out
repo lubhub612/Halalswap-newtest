@@ -1,0 +1,45 @@
+yarn run v1.22.19
+$ GENERATE_SOURCEMAP=false  react-app-rewired start
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /root/ws/HalalswapFarm/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled with warnings.
+
+src/state/stake/hooks.ts
+  Line 1209:6:  React Hook useMemo has a missing dependency: 'lairAddress'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Done in 308883.47s.
+yarn run v1.22.19
+$ GENERATE_SOURCEMAP=false  react-app-rewired start
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /root/ws/HalalswapFarm/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled with warnings.
+
+src/state/stake/hooks.ts
+  Line 1209:6:  React Hook useMemo has a missing dependency: 'lairAddress'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+ForbiddenError: Forbidden
+    at /root/ws/HalalswapFarm/node_modules/serve-index/index.js:125:19
+    at /root/ws/HalalswapFarm/node_modules/webpack-dev-server/lib/Server.js:430:49
+    at Layer.handle [as handle_request] (/root/ws/HalalswapFarm/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/root/ws/HalalswapFarm/node_modules/express/lib/router/index.js:323:13)
+    at /root/ws/HalalswapFarm/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/ws/HalalswapFarm/node_modules/express/lib/router/index.js:341:12)
+    at next (/root/ws/HalalswapFarm/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/root/ws/HalalswapFarm/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:527:28)
+    at SendStream.error (/root/ws/HalalswapFarm/node_modules/send/index.js:270:17)
+Done in 397037.86s.
