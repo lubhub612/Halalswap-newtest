@@ -251,6 +251,9 @@ const AddLiquidity: React.FC<{
       ];
       value = null;
     }
+    console.log(method);
+    console.log(args);
+    console.log(value);
 
     setAttemptingTxn(true);
     await estimate(...args, value ? { value } : {})
