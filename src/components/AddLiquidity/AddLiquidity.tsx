@@ -264,6 +264,9 @@ const AddLiquidity: React.FC<{
         }).then(async (response) => {
           setAttemptingTxn(false);
           setTxPending(true);
+          console.log(estimatedGasLimit);
+          console.log(calculateGasMargin(estimatedGasLimit));
+          console.log(response);
           const summary = t('addLiquidityTokens', liquidityTokenData);
 
           addTransaction(response, {
