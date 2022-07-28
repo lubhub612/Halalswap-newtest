@@ -293,6 +293,7 @@ const AddLiquidity: React.FC<{
       .catch((error) => {
         setAttemptingTxn(false);
         setAddLiquidityErrorMessage(t('txRejected'));
+        console.log(error);
         // we only care if the error is something _other_ than the user rejected the tx
         if (error?.code !== 4001) {
           console.error(error);
