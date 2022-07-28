@@ -203,6 +203,7 @@ const AddLiquidity: React.FC<{
         noLiquidity ? 0 : allowedSlippage,
       )[0],
     };
+    console.log(router);
 
     let estimate,
       method: (...args: any) => Promise<TransactionResponse>,
